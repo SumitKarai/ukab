@@ -1,0 +1,37 @@
+/* Style the navbar container */
+nav {
+  background-color: #333; /* Dark background */
+  overflow: hidden; /* Clear float issues */
+  padding: 10px 20px; /* Add padding for spacing */
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-around; /* Evenly spaced links */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style the links */
+nav a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px; /* Add some padding around text */
+  font-size: 18px; /* Increase font size */
+  transition: color 0.3s, background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Add hover effects to the links */
+nav a:hover {
+  background-color: #575757; /* Dark gray background on hover */
+  color: #ffcc00; /* Highlighted text color */
+  border-radius: 4px; /* Rounded edges */
+}
+
+/* Responsive design: Stack links on smaller screens */
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column; /* Stack links vertically */
+  }
+
+  nav a {
+    padding: 10px; /* Adjust padding for stacked links */
+    text-align: center; /* Center align text */
+  }
+}

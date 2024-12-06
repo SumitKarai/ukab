@@ -1,0 +1,40 @@
+/* styles/navbar.css */
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #ff4500;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .user-info img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
